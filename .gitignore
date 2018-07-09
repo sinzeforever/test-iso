@@ -1,0 +1,12 @@
+node_modules/
+statics/bundle
+ynpm-debug.log
+coverage/
+artifacts/
+dist/
+results.xml
+.nyc_output/
+examples/*/node_modules
+examples/*/dist
+examples/*/statics/bundle
+examples/*/ynpm-debug.log

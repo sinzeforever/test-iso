@@ -1,0 +1,9 @@
+.nyc_output/
+coverage/
+examples/
+spec/
+src/
+.gitignore
+.babelrc
+screwdriver.yaml
+results.xml

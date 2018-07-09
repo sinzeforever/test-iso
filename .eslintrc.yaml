@@ -1,0 +1,24 @@
+parser: babel-eslint
+extends: airbnb
+env:
+  node: true,
+  jasmine: true
+rules:
+  # override 2 rules for spec/
+  import/no-mutable-exports: 0
+  import/no-dynamic-require: 0
+  
+  # override 1 rule to decorate Error
+  no-param-reassign: 0
+  # no need force jsx
+  react/jsx-filename-extension:
+    - 1
+    - extensions: [.js, .jsx]
+
+  # will fix in future
+  no-underscore-dangle: 0
+  jsx-a11y/html-has-lang: 0
+  max-len: 0
+
+globals:
+  fetch: true
